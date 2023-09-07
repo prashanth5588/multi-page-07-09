@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+     
+<head>
+    <title>JS DOM</title>
+
+    <link rel="stylesheet"  href="mystyle.css">
+        
+    
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+    <script src="main.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <h1 style="font-size: 5vw; color: white;">swifter<sup><img src="3. download.jpg" width="70" height="70" style="margin-left: 20px;border-radius: 16px;"></sup></h1>
+            <div col-xl-6 col-lg-6 col-md-8 col-sm-11 col-xs-11>
+                <div class="box-container">
+                    <img src="4. images.jpg" width="80" height="80" style="border-radius: 16px;">
+                    <h3>Know what's going on news, The world is in your hands</h3>
+                    <h4 class="join"> To join swifter today</h4>
+                        <label for="userName">Enter username</label><br>
+                        <input type="text" id="userName" placeholder="Enter userName" autocomplete="parashanth">
+                        <br>
+                        <label for="mobilenumber">Mobile number</label><br>
+                        <input type="number" id="mobilenumber" placeholder="Enter mobilenumber"><br>
+                        <label for="password">Enter password</label><br>
+                        <input type="password" id="password" placeholder="Enter password"><br>
+                        <div>
+                            <h3>Gender: </h3>
+                            <input type="radio" name="gender" value="male">Male <br>
+                            <input type="radio" name="gender" value="female">Female <br>
+                            <input type="radio" name="gender" value="others">Others <br>
+                        </div>
+                        <div>
+                            <h3>Select documents you have</h3>
+                            <input type="checkbox" name="proof" value="pancard">Pancard <br>
+                            <input type="checkbox" name="proof" value="adhar">Adhar <br>
+                            <input type="checkbox" name="proof" value="drivingLicense">DrivingLicense <br>
+                            <input type="checkbox" name="proof" value="voterid">VoterId<br>
+                            
+                        </div>
+                        <p>Select the type of Account you want: 
+                        <select id="account">
+                            <option value="free">Free</option>
+                            <option value="basic">Basic</option>
+                            <option value="Premium">Premium</option>
+                        </select>
+                        </p>
+                        <button type="submit" id="adding" class="btn btn-primary" style="margin: 20px;" onclick="newUser()">Add</button>
+                    
+                </div>
+
+            </div>
+        </center>
+        
+    </body>
+</html>

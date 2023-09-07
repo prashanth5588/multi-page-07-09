@@ -1,0 +1,37 @@
+
+body {
+     
+    background-image: linear-gradient(blueviolet,violet);
+    height: 100vh;
+}
+
+
+label{
+ font-size: 20px;
+ color: black;
+}
+
+h1 {
+    color: wheat;
+    
+}
+
+.join {
+    color: blue;
+    font-size: 25px;
+    font-family: serif;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.box-container {
+    background-color: rgb(200, 237, 238);
+    width: 60vw;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.input{
+    width: 400px;
+    margin: 20px;
+}

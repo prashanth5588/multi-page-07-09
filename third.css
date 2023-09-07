@@ -1,0 +1,17 @@
+.bg-container {
+    height: 100vw;
+    background-color: rgb(223, 106, 106);
+}
+
+.form-control {
+    height: 30px;
+    width: 800px;
+
+}
+
+#output {
+    width: 50vw;
+    height: 20vw;
+    background-color: bisque;
+    border-radius: 30px;
+}
